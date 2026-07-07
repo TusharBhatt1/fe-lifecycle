@@ -2,17 +2,23 @@
 	"name": "fe-lifecycle",
 	"version": "1.0.0",
 	"private": true,
-  "packageManger":"pnpm@10.12.4",
+	"packageManger": "pnpm@10.12.4",
 	"scripts": {
 		"dev": "lerna run dev --parallel",
-    "build":"lerna run build",
-    "test":"lerna run test",
-    "lint":"lerna run lint"
+		"build": "lerna run build",
+		"test": "lerna run test",
+		"lint": "lerna run lint"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"lerna": "^9.0.7"
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.6.0",
+		"eslint-plugin-react-hooks": "^7.1.1",
+		"eslint-plugin-react-refresh": "^0.5.3",
+		"globals": "^17.7.0",
+		"lerna": "^9.0.7",
+		"typescript-eslint": "^8.63.0"
 	}
 }
