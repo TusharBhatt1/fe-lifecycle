@@ -12,6 +12,7 @@
   "dependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/ui": "workspace:*",
+    "@repo/utils": "workspace:*",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },
