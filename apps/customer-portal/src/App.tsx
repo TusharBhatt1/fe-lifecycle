@@ -5,6 +5,7 @@ function App() {
 		<>
 			<h1>Complete life style</h1>
 			<Button title={"This is a button"} />
+			<p>Some new feature!</p>
 			{sum(10, 20)}
 		</>
 	);
