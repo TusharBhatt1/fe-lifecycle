@@ -1,0 +1,20 @@
+name: Pull requests
+
+on: 
+ pull_request:
+   branches:
+    - master
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: pull-request-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+ quality-gstes:
+  name: Quality Gates
+  uses: ./quality-gates.yml
+  secrets: inherit
